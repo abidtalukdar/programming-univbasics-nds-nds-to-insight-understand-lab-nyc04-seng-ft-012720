@@ -18,7 +18,7 @@ def pretty_print_nds(nds)
   return pretty
 end
 
-def print_first_directors_movie_title
+def print_first_directors_movie_titles
   row_index = 0
   while row_index < nds.length do 
     column_index = 0
