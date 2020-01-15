@@ -18,15 +18,14 @@ def pretty_print_nds(nds)
   return pretty
 end
 
-def print_first_directors_movie_titles
-  
+def print_first_directors_movie_title
   row_index = 0
-  while row_index < pretty.length do 
+  while row_index < nds.length do 
     column_index = 0
-    while column_index < pretty[row_index].length do
+    while column_index < nds[row_index].length do
       depth_index = 0 
-      while depth_index < pretty[row_index][column_index].length do
-        puts pretty[row_index][column_index][depth_index]
+      while depth_index < nds[row_index][column_index].length do
+        puts nds[row_index][column_index][depth_index]
         depth_index += 1
       end  
     end
