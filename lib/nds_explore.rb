@@ -25,7 +25,7 @@ def print_first_directors_movie_titles
     while column_index < nds[row_index].length do
       depth_index = 0 
       while depth_index < nds[row_index][column_index].length do
-        puts nds[row_index][column_index][depth_index]
+        puts nds[row_index][column_index][depth_index][:title]
         depth_index += 1
       end  
     end
