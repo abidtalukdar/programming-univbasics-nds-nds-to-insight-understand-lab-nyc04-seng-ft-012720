@@ -25,8 +25,9 @@ def print_first_directors_movie_titles
   row_index = 0
   while row_index < nds.length do
     column_index = 0
-    while column_index <
-      end
+    while column_index < nds[row_index].length do
+      
+      
     end
   end
 end  
